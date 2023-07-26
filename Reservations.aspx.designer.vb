@@ -32,6 +32,15 @@ Partial Public Class About
     Protected WithEvents txtEmail As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''RadioButtonList1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadioButtonList1 As Global.System.Web.UI.WebControls.RadioButtonList
+
+    '''<summary>
     '''chkCastle control.
     '''</summary>
     '''<remarks>
@@ -50,11 +59,29 @@ Partial Public Class About
     Protected WithEvents chkArtisan As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''chkEmersion control.
+    '''chkEmersive control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents chkEmersion As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents chkEmersive As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''ddlNights control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlNights As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''cldArrival control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cldArrival As Global.System.Web.UI.WebControls.Calendar
 End Class
