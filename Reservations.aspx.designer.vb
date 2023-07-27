@@ -12,4 +12,76 @@ Option Explicit On
 
 
 Partial Public Class About
+
+    '''<summary>
+    '''txtName control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtName As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtEmail control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtEmail As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''RadioButtonList1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadioButtonList1 As Global.System.Web.UI.WebControls.RadioButtonList
+
+    '''<summary>
+    '''chkCastle control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents chkCastle As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''chkArtisan control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents chkArtisan As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''chkEmersive control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents chkEmersive As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''ddlNights control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlNights As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''cldArrival control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cldArrival As Global.System.Web.UI.WebControls.Calendar
 End Class
