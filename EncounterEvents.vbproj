@@ -130,6 +130,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Destinations.aspx" />
     <Content Include="Reservations.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -184,6 +185,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Destinations.aspx.designer.vb">
+      <DependentUpon>Destinations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Destinations.aspx.vb">
+      <DependentUpon>Destinations.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Reservations.aspx.designer.vb">
       <DependentUpon>Reservations.aspx</DependentUpon>
     </Compile>
