@@ -61,10 +61,10 @@ Public Class About
                 'create reservation message
                 strMessage = "A reservation has been made for:" & "<br>" _
                     & strName & "<br>" _
-                    & "Email: " & strEmail _
+                    & "Email: " & strEmail & "<br>" _
                     & "The estimated event cost is: " & decEventCost.ToString("C2") & "<br>" _
                     & "Arrival Date: " & cldArrival.SelectedDate.ToShortDateString() & "<br>" _
-                    & "For " & intNumberNights.ToString() & "nights"
+                    & "For " & intNumberNights.ToString() & " nights"
 
                 lblReservation.Text = strMessage
             Else
