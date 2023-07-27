@@ -23,6 +23,15 @@ Partial Public Class About
     Protected WithEvents txtName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''rfvName control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents rfvName As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''txtEmail control.
     '''</summary>
     '''<remarks>
@@ -32,13 +41,22 @@ Partial Public Class About
     Protected WithEvents txtEmail As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''RadioButtonList1 control.
+    '''revEmail control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadioButtonList1 As Global.System.Web.UI.WebControls.RadioButtonList
+    Protected WithEvents revEmail As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
+    '''rblVenue control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents rblVenue As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
     '''chkCastle control.
@@ -48,6 +66,15 @@ Partial Public Class About
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents chkCastle As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''lblEventError control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblEventError As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''chkArtisan control.
@@ -84,4 +111,31 @@ Partial Public Class About
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents cldArrival As Global.System.Web.UI.WebControls.Calendar
+
+    '''<summary>
+    '''btnSubmit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSubmit As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''lblCalendarError control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblCalendarError As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lblReservation control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblReservation As Global.System.Web.UI.WebControls.Label
 End Class

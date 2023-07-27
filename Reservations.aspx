@@ -8,21 +8,25 @@
             <td class="modal-sm" style="width: 250px; height: 22px;">
                 <asp:TextBox ID="txtName" runat="server" Width="250px"></asp:TextBox>
             </td>
-            <td style="height: 22px"></td>
+            <td style="height: 22px">
+                <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" ErrorMessage="* Enter Name"></asp:RequiredFieldValidator>
+            </td>
         </tr>
         <tr>
             <td class="modal-sm" style="width: 150px">Email Address: </td>
             <td class="modal-sm" style="width: 250px">
                 <asp:TextBox ID="txtEmail" runat="server" Width="250px"></asp:TextBox>
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:RegularExpressionValidator ID="revEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="* Error Email Format" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            </td>
         </tr>
         <tr>
             <td class="modal-sm" style="width: 150px">Venue: </td>
             <td class="modal-sm" style="width: 250px">
                
-                <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                    <asp:ListItem>Dunrobin (UK)</asp:ListItem>
+                <asp:RadioButtonList ID="rblVenue" runat="server">
+                    <asp:ListItem Selected="True">Dunrobin (UK)</asp:ListItem>
                     <asp:ListItem>Neuschwanstein (Germany)</asp:ListItem>
                     <asp:ListItem>Himeji (Japan)</asp:ListItem>
                     <asp:ListItem>Bretesche (France)</asp:ListItem>
@@ -36,7 +40,9 @@
             <td class="modal-sm" style="width: 250px">
                 <asp:CheckBox ID="chkCastle" runat="server" Checked="True" Text="Castle" />
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Label ID="lblEventError" runat="server" Text="* Please select an event" Visible="False"></asp:Label>
+            </td>
         </tr>
         <tr>
             <td class="modal-sm" style="width: 150px; height: 20px;"></td>
@@ -80,7 +86,30 @@
                     <TodayDayStyle BackColor="#FFCC66" ForeColor="White" />
                 </asp:Calendar>
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+                <br />
+                <asp:Label ID="lblCalendarError" runat="server" Text="* Please Select a Valid Date" Visible="False"></asp:Label>
+                <br />
+                <br />
+                <br />
+                <asp:Label ID="lblReservation" runat="server"></asp:Label>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td class="modal-sm" style="width: 150px; height: 22px;"></td>
+            <td class="modal-sm" style="width: 250px; height: 22px;"></td>
+            <td class="modal-sm" style="width: 150px; height: 22px;">
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
         </tr>
     </table>
     <p>&nbsp;</p>
